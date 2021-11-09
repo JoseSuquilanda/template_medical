@@ -20,7 +20,7 @@
 </head>
 
 <body>
-        
+    
     <!-- Start Preloader -->
     <div class="preloader">
         <div class="preloader-inner">
@@ -30,26 +30,20 @@
         </div>
     </div>
 
-    <div class="preloader">
-        <div class="preloader-inner">
-            <div class="loader-content">
-                <span class="icon-section-wave d-inline-block text-active  mt-3 "></span>
-            </div>
-        </div>
-    </div>
-    <header class="bg-white">
+    <!-- Start Header -->
+    <header>
         <!-- Start Toolbar Section -->
         <div class="toolbar">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <a href="index.html" class="logo">
                             <img src="assets/images/logo.png" alt="">
                         </a>
                     </div>
-                    <div class="col-md-8 d-none d-md-block">
-                        <div class="toolbar-right text-right">
-                            <div class="media align-items-center d-inline-flex">
+                    <div class="col-md-6 col-sm-8 d-none d-md-block">
+                        <div class="toolbar-right text-center">
+                            <div class="media align-items-center d-inline-flex  mr-sm-2 mr-lg-5">
                                 <div class="tolbar-icon text-active s-dp-1-3 justify-content-center  rounded-circle">
                                     <i class="icofont-envelope"></i>
                                 </div>
@@ -59,7 +53,7 @@
                             </div>
                             <div class="media align-items-center d-inline-flex">
                                 <div class="tolbar-icon text-active s-dp-1-3 justify-content-center  rounded-circle">
-                                   <i class="icofont-ui-call"></i>
+                                    <i class="icofont-ui-call"></i>
                                 </div>
                                 <div class="media-body">
                                     <a href="#" class="text-default">+0123 456 789</a>
@@ -67,23 +61,26 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-3 col-sm-4 text-right d-none d-md-block">
+                        <a href="appointment.html" class="btn fadeInDown-slide position-relative animated pl-4 pr-4 lsp-0 no-border bg-transparent medim-btn grad-bg--3 solid-btn mt-0 text-medium radius-pill text-active text-uppercase text-white s-dp-1-2">
+                               Appoinment
+                            </a>
+                    </div>
+
                 </div>
             </div>
         </div>
         <!-- Start Toolbar Section -->
-
         <!-- Start Navigation Section -->
         <nav class="navbar grad-bg--2 s-dp-1-3 navbar-sticky navbar-expand-lg m-navbar bcbd_navbar">
             <div class="container position-relative">
-                <a href="index.html" class="menu-logo" >
+               <a href="index.html" class="menu-logo" >
                     <img src="assets/images/logo.png" alt="">
                 </a>
                 <div class="burger_menu">
                     <span class="navbar-toggler-icon"></span>
                 </div><!-- burger menu -->
-
                 <div class="collapse navbar-collapse bcbd_collpase_nav" id="navbarSupportedContent">
-
                     <div class="nav_outer  mr-auto">
                         <ul class="navbar-nav bcbd_nav mr-auto">
                             <li class="nav-item active hs_dropdown">
@@ -337,49 +334,35 @@
         </nav>
         <!-- Start Navigation Section -->
     </header>
+    <!-- End Header -->
 
-    <!-- Start Banner Section -->
-    <div class="grad-bg--2 banenr position-relative type-1 no-overflows">
-        <div class="circle"></div> 
-        <div class="circle2"></div>
-        <div class="circle3"></div>
-        <div class="circle4"></div>
-        <div class="container position-relative">
-            <img src="assets/images/banner-img.png" class="banner-image position-absolute" alt="banenr image">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="banenr-slider">
-                        <div class="single-banenr-slide">
-                            <div class="row">
-                                <div class="col-xl-5 col-sm-8 col-md-6">
-                                    <h6 class="ml12 text-white text-uppercase fadeInDown-slide animated">we care about youR HEALTH</h6>
-                                    <h1 class="text-white font-weight-bold mb-4 fadeInDown-slide animated">WE ARE MEDIM</h1>
-                                    <p class="text-white fadeInDown-slide animated">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-                                    </p>
-                                   <div class="xs-flex">
-                                        <a href="about-1.html" class="btn fadeInDown-slide animated  medim-btn btn-bordered-white mt-4 text-medium radius-pill bg-transparent text-active text-uppercase text-white">
-                                            About Us
-                                        </a>
-                                        <a href="appointment.html" class="btn fadeInDown-slide animated no-border bg-transparent medim-btn grad-bg--3 solid-btn mt-4 text-medium radius-pill text-active text-uppercase text-white">
-                                            Appoinment
-                                        </a>
-                                   </div>
-                                </div>
-                            </div>
-                        </div> <!-- single-banenr-slide -->
-                    </div>
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </div> <!-- Banenr Section -->
-    <!-- Start Banner Section -->
-
-    <!-- Start About Section -->
-    <section class="m-pt-140 m-pb-70 about-area type-1 position-relative" >
+    <!-- Start Section -->
+    <section class=" position-relative set-bg breadcrumb-container" data-bg="assets/images/breadcrumb-img1.jpg">
+        <div class="overlay op-P9"></div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4 xs-mb-20">
+                <div class="col-md-12">
+                   <div class="breadcrumb-inner align-items-start flex-column justify-content-center   d-flex ">
+                        <h3 class="semi-bold text-uppercase text-white">About Us</h3>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb bg-transparent mb-0 pl-0 p-0">
+                                <li class="breadcrumb-item active"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item " aria-current="page"><a href="#">About Us</a></li>
+                            </ol>
+                        </nav>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Start Section -->
+    
+    <!-- Start About Section -->
+    <section class="intro-area type2 m-pt-140 m-bg-1 ">
+        <div class="container position-relative m-pb-140">
+            <img src="assets/images/doctor-img3.png" class="intro-doctor position-absolute" alt="">
+            <div class="row">
+                <div class="col-lg-4 col-sm-5 col-md-4">
                     <h2 class="text-dark mb-0 semi-bold pb-5"> 
                         Who 
                         <br>
@@ -388,330 +371,57 @@
                     <p class="mb-4">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                     </p>
-                    <a href="contact.html" class="btn fadeInDown-slide animated no-border bg-transparent medim-btn grad-bg--3 solid-btn mt-4 text-medium radius-pill text-active text-uppercase text-white">
-                        Contact us
-                    </a>
-                </div> <!-- col -->
-                <div class="col-lg-7 offset-lg-1 col-md-8">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="m-mb-60 features-wraper">
-                                <div class="features-circle mb-3 m-bg-3 text-active d-inline-flex align-items-center justify-content-center rounded-circle">
-                                    <i class="icofont-first-aid"></i>
-                                </div>
-                                <h4 class="m-text-2 mb-3 mt-2">Medical Treatment</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                </p>
-                            </div>
-                        </div> <!-- col -->
-                        <div class="col-sm-6">
-                            <div class="m-mb-60 features-wraper">
-                                <div class="features-circle mb-3 m-bg-3 text-active d-inline-flex align-items-center justify-content-center rounded-circle">
-                                    <i class="icofont-doctor"></i>
-                                </div>
-                                <h4 class="m-text-2 mb-3 mt-2">Qualified Doctors</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                </p>
-                            </div>
-                        </div> <!-- col -->
-                        <div class="col-sm-6">
-                            <div class="m-mb-60 features-wraper">
-                                <div class="features-circle mb-3 m-bg-3 text-active d-inline-flex align-items-center justify-content-center rounded-circle">
-                                   <i class="icofont-clock-time"></i>
-                                </div>
-                                <h4 class="m-text-2 mb-3 mt-2">24 Hours Service</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                </p>
-                            </div>
-                        </div> <!-- col -->
-                        <div class="col-sm-6">
-                            <div class="m-mb-60 features-wraper">
-                                <div class="features-circle mb-3 m-bg-3 text-active d-inline-flex align-items-center justify-content-center rounded-circle">
-                                    <i class="icofont-ambulance-cross"></i>
-                                </div>
-                                <h4 class="m-text-2 mb-3 mt-2">Emergency Services</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                </p>
-                            </div>
-                        </div> <!-- col -->
-                    </div>
-                </div> <!-- Banenr Section -->
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section> <!-- About Section -->
-    <!-- Start About Section -->
-
-    <!-- Start Department Section -->
-    <section class="m-bg-1 intro-area type-1 position-relative">
-        <div class="intro-overlay position-absolute set-bg" data-bg="assets/images/intro-bg.jpg" ></div>
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="department-tab-pill m-pt-140  m-pb-140 position-relative ">
-                        <h2 class="text-white pb-md-5">
-                            Our 
-                            <br>
-                            Departments
-                        </h2>
-                        <div class="nav  pt-md-0 flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                          <a class="nav-link active"  data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
-                            <i class="icofont-heart-beat-alt"></i>
-                               <span>
-                                    Cardiology
-                               </span>
-                            </a>
-                          <a class="nav-link"  data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                            <i class="icofont-dna-alt-1"></i>
-                                <span>
-                                    Neurology
-                                </span>
-                            </a>
-                          <a class="nav-link"  data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
-                            <i class="icofont-tooth"></i>
-                                <span>
-                                    Dental
-                                </span>
-                            </a>
-                          <a class="nav-link"  data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
-                            <i class="icofont-laboratory"></i>
-                                <span>
-                                    Diagnostic
-                                </span>
-                            </a>
-                            <a class="nav-link"  data-toggle="pill" href="#eye-care" role="tab" aria-controls="v-pills-settings" aria-selected="false">
-                                <i class="icofont-laboratory"></i>
-                                <span>
-                                    Eyecare
-                                </span>
-                            </a>
+                    <div class="media align-items-center text-medium">
+                        <i class="icofont-check-circled mr-3 text-active"></i>
+                        <div class="media-body">
+                            <p class="mb-0 text-medium">Free Medical Consultation For Poor</p>
                         </div>
                     </div>
+                    <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Well Experienced Doctors</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">24/7 Free Medical Services</p>
+                            </div>
+                        </div>
+                        <div class="media align-items-center text-medium">
+                            <i class="icofont-check-circled mr-3 text-active"></i>
+                            <div class="media-body">
+                                <p class="mb-0 text-medium">Online Bill Payments</p>
+                            </div>
+                        </div>
                 </div>
-                <div class="col-md-8">
-                    <div class="tab-content m-pt-140 m-pb-140 " >
-                          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" >
-                              <h4 class="m-text-2 ">Department of Cardiology</h4>
-                              <h6 class="text-light-dark ff-roboto pb-40 mb-0">We are the Best in Cardiology</h6>
-                              <p class="m-mb-30">
-                                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-                              </p>
-                              <p>
-                                  Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                              </p>
-                              <div class="row">
-                                  <div class="col-md-6">
-                                      <div class="media mt-4 mb-2">
-                                          <div class="text-active">
-                                              <i class="icofont-first-aid"></i>
-                                          </div>
-                                          <div class="media-body ml-3">
-                                            <h5 class="mt-0 mb-3 text-dark2">Cardiology Service - 01</h5>
-                                           <p>
-                                               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                                           </p>
-                                          </div>
-                                        </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                      <div class="media mt-4 mb-2">
-                                          <div class="text-active">
-                                              <i class="icofont-capsule"></i>
-                                          </div>
-                                          <div class="media-body ml-3">
-                                            <h5 class="mt-0 mb-3 text-dark2">Cardiology Service - 02</h5>
-                                           <p>
-                                               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                                           </p>
-                                          </div>
-                                        </div>
-                                  </div>
-                              </div>
-                            <a href="department-1.html" class="btn fadeInDown-slide animated no-border bg-transparent medim-btn grad-bg--3 solid-btn mt-3 text-medium radius-pill text-active text-uppercase text-white">
-                                View more
-                            </a>
-                          </div>
-                          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" >
-                              <h4 class="m-text-2 ">Department of Neurology</h4>
-                              <h6 class="text-light-dark ff-roboto pb-40 mb-0">We are the Best in Neurology</h6>
-                              <p class="m-mb-30">
-                                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-                              </p>
-                              <p>
-                                  Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                              </p>
-                              <div class="row">
-                                  <div class="col-md-6">
-                                      <div class="media mt-4 mb-2">
-                                          <div class="text-active">
-                                              <i class="icofont-first-aid"></i>
-                                          </div>
-                                          <div class="media-body ml-3">
-                                            <h5 class="mt-0 mb-3 text-dark2">Neurology Service - 01</h5>
-                                           <p>
-                                               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                                           </p>
-                                          </div>
-                                        </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                      <div class="media mt-4 mb-2">
-                                          <div class="text-active">
-                                              <i class="icofont-capsule"></i>
-                                          </div>
-                                          <div class="media-body ml-3">
-                                            <h5 class="mt-0 mb-3 text-dark2">Neurology Service - 02</h5>
-                                           <p>
-                                               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                                           </p>
-                                          </div>
-                                        </div>
-                                  </div>
-                              </div>
-                             <a href="department-2.html" class="btn fadeInDown-slide animated no-border bg-transparent medim-btn grad-bg--3 solid-btn mt-3 text-medium radius-pill text-active text-uppercase text-white">
-                                View more
-                            </a>
-                          </div>
-                          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" >
-                              <h4 class="m-text-2 ">Department of Dental</h4>
-                              <h6 class="text-light-dark ff-roboto pb-40 mb-0">We are the Best in Dental</h6>
-                              <p class="m-mb-30">
-                                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-                              </p>
-                              <p>
-                                  Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                              </p>
-                              <div class="row">
-                                  <div class="col-md-6">
-                                      <div class="media mt-4 mb-2">
-                                          <div class="text-active">
-                                              <i class="icofont-first-aid"></i>
-                                          </div>
-                                          <div class="media-body ml-3">
-                                            <h5 class="mt-0 mb-3 text-dark2">Dental Service - 01</h5>
-                                           <p>
-                                               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                                           </p>
-                                          </div>
-                                        </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                      <div class="media mt-4 mb-2">
-                                          <div class="text-active">
-                                             <i class="icofont-capsule"></i>
-                                          </div>
-                                          <div class="media-body ml-3">
-                                            <h5 class="mt-0 mb-3 text-dark2">Dental Service - 02</h5>
-                                           <p>
-                                               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                                           </p>
-                                          </div>
-                                        </div>
-                                  </div>
-                              </div>
-                             <a href="department-1.html" class="btn fadeInDown-slide animated no-border bg-transparent medim-btn grad-bg--3 solid-btn mt-3 text-medium radius-pill text-active text-uppercase text-white">
-                                View more
-                            </a>
-                          </div>
-                          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" >
-                              <h4 class="m-text-2 ">Department of Diagnostic</h4>
-                              <h6 class="text-light-dark ff-roboto pb-40 mb-0">We are the Best in Diagnostic</h6>
-                              <p class="m-mb-30">
-                                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-                              </p>
-                              <p>
-                                  Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                              </p>
-                              <div class="row">
-                                  <div class="col-md-6">
-                                      <div class="media mt-4 mb-2">
-                                          <div class="text-active">
-                                              <i class="icofont-first-aid"></i>
-                                          </div>
-                                          <div class="media-body ml-3">
-                                            <h5 class="mt-0 mb-3 text-dark2">Diagnostic Service - 01</h5>
-                                           <p>
-                                               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                                           </p>
-                                          </div>
-                                        </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                      <div class="media mt-4 mb-2">
-                                          <div class="text-active">
-                                              <i class="icofont-capsule"></i>
-                                          </div>
-                                          <div class="media-body ml-3">
-                                            <h5 class="mt-0 mb-3 text-dark2">Diagnostic Service - 02</h5>
-                                           <p>
-                                               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                                           </p>
-                                          </div>
-                                        </div>
-                                  </div>
-                              </div>
-                             <a href="department-2.html" class="btn fadeInDown-slide animated no-border bg-transparent medim-btn grad-bg--3 solid-btn mt-3 text-medium radius-pill text-active text-uppercase text-white">
-                                View more
-                            </a>
-                          </div>
-                          <div class="tab-pane fade" id="eye-care" role="tabpanel" >
-                              <h4 class="m-text-2 ">Department of Eyecare</h4>
-                              <h6 class="text-light-dark ff-roboto pb-40 mb-0">We are the Best in Eyecare</h6>
-                              <p class="m-mb-30">
-                                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-                              </p>
-                              <p>
-                                  Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                              </p>
-                              <div class="row">
-                                  <div class="col-md-6">
-                                      <div class="media mt-4 mb-2">
-                                          <div class="text-active">
-                                              <i class="icofont-first-aid"></i>
-                                          </div>
-                                          <div class="media-body ml-3">
-                                            <h5 class="mt-0 mb-3 text-dark2">Eyecare Service - 01</h5>
-                                           <p>
-                                               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                                           </p>
-                                          </div>
-                                        </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                      <div class="media mt-4 mb-2">
-                                          <div class="text-active">
-                                              <i class="icofont-first-aid"></i>
-                                          </div>
-                                          <div class="media-body ml-3">
-                                            <h5 class="mt-0 mb-3 text-dark2">Eyecare Service - 02</h5>
-                                           <p>
-                                               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                                           </p>
-                                          </div>
-                                        </div>
-                                  </div>
-                              </div>
-                             <a href="department-1.html" class="btn fadeInDown-slide animated no-border bg-transparent medim-btn grad-bg--3 solid-btn mt-3 text-medium radius-pill text-active text-uppercase text-white">
-                                View more
-                            </a>
-                          </div>
+                <div class="col-lg-4 col-sm-6 col-md-5">
+                    <div class="intro-box bg-white radius-5">
+                        <div class="intro-icon rounded-circle grad-bg--5">
+                           <span class="icon-clock text-white"></span>
+                        </div>
+                        <h3 class="m-text-2 mb-3">Opening Hours</h3>
+                            <p><span>Mon - Tue: </span>  <span>10:00 - 16:00 </span></p>
+                            <p><span>Wed - Thu: </span>  <span>10:00 - 16:00 </span></p>
+                            <p><span>Fri - Sun: </span>  <span>10:00 - 16:00 </span></p>
+                          
+                            <a href="timetable.html" class="btn fadeInDown-slide mt-4 animated no-border bg-transparent medim-btn grad-bg--3 solid-btn mt-0 text-medium radius-pill text-active text-uppercase text-white">
+                                    time table
+                                </a>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
-    <!-- Start Department Section -->
-
+    <!-- Start About Section -->
     <!-- Start Section -->
-    <section class=" m-pb-140 m-pt-135 ">
+    <section class="m-pb-200 m-pt-135 ">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3">
-                   <div class="text-center pb-75">
+                   <div class="text-center pb-80">
                         <p class="m-0  text-uppercase text-light-dark lt-space">Here is medim specialist doctors</p>
                         <h2 class="m-0  text-dark">Medim Doctors</h2>
                        
@@ -858,152 +568,142 @@
     </section>
     <!-- End Section -->
 
-    <!-- Start About Section -->
-    <section class="m-pt-135  position-relative set-bg" data-bg="assets/images/bg-img1.jpg">
+    <!-- Start call to action  Section -->
+    <section class="position-relative m-pt-135  m-pb-140  set-bg fixed-bg" data-bg="assets/images/dark-iphone.jpg">
         <div class="overlay op-P9"></div>
         <div class="container">
             <div class="row">
-                <div class="col-md-8 offset-md-2">
-                   <div class="text-center pb-75">
-                        <p class="m-0 text-white  text-uppercase  lt-space">Book an appointment for a consultation</p>
-                        <h2 class="m-0  text-white ">Book Appointment</h2>
-                       <span class="icon-section-wave d-inline-block text-white section-wave mt-3"></span>
-                   </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 perspective--400">
-                    <div class="appoint-card radius-20 bg-white  position-relative m-pt-70 m-pb-70 s-10-80">
-                         <img src="assets/images/doctor-img.png" alt="">
-                        <form action="#">
-                            <div class="row">
-                            
-                                <div class="col-lg-7 offset-lg-5  col-md-9 offset-md-3">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <input type="text" class="form-control m-mb-20" placeholder="Your Name:">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="text" class="form-control m-mb-20" placeholder="Your Phone:">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="text" class="form-control m-mb-20" placeholder="Your Mail:">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="position-relative m-mb-20">
-                                                <label  class="position-absolute m-label">
-                                                    <i class="icofont-calendar"></i>
-                                                </label>
-                                               <input type="text" placeholder="Date:" class="form-control datepicker " >
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="position-relative m-mb-20" >
-                                                <label   class="position-absolute m-label">
-                                                    <i class="icofont-first-aid"></i>
-                                                </label>
-                                                <select class="js-example-basic-single" name="state">
-                                                    <option value="">Select Department:</option>
-                                                    <option value="Department1">Cardiology</option>
-                                                    <option value="Department1">Neurology</option>
-                                                    <option value="Department1">Diagnostic</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="position-relative m-mb-20">
-                                                <label   class="position-absolute m-label">
-                                                    <i class="icofont-stethoscope-alt"></i>
-                                                </label>
-                                                <select class="js-example-basic-single" name="state">
-                                                    <option value="">Select Doctors:</option>
-                                                    <option value="Department1">
-                                                        Dr. Rojana Rossy
-                                                    </option>
-                                                    <option value="Department1">Dr. Jonathon Jos</option>
-                                                    <option value="Department1">Dr. Katrina Katy</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <p class="pt-2">
-                                                Please Call Us:  <a href="#" class="text-active d-inline-block pl-3 fz-poppins">+1234 567 890</a>
-                                            </p>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <a href="appointment.html" class="btn fadeInDown-slide animated no-border bg-transparent medim-btn grad-bg--3 solid-btn text-medium radius-pill  text-uppercase text-white">
-                                                make appointment
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+                <div class="col-xl-7 col-md-8 offset-md-4 position-relative offset-xl-5">
+                    <img src="assets/images/i-phone-img1.png" class="phone-mockup" alt="">
+                    <div class="circle"></div>
+                    <div class="circle2"></div>
+                    <h2 class="text-white m-mb-50">
+                        Medim App 
+                        <br>
+Available Now On
+                    </h2>
+                    <div class="d-flex flex-column flex-sm-row">
+                        <a href="#" class="text-white s-dp-1-3 mr-2 mr-lg-4   d-inline-flex   btn-appStore">
+                            <div class="media  align-items-center">
+                              <i class="icofont-brand-apple mr-4"></i>
+                              <div class="media-body">
+                                <p class="m-0">Download From</p>
+                                <h5 class="m-0">App store</h5>
+                              </div>
                             </div>
-                        </form>
-                    </div> <!-- appoint-card -->
+                        </a>
+                        <a href="#" class="bg-white s-dp-1-3    d-inline-flex  text-active  btn-playStore">
+                            <div class="media align-items-center">
+                             <i class="icofont-brand-android-robot mr-4"></i>
+                              <div class="media-body">
+                                <p class="m-0">Download From</p>
+                                <h5 class="m-0">Google Play</h5>
+                              </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Start About Section -->
+    <!-- End  call to action Section -->
 
-    <!-- Start recent post Section -->
-    <section class="m-bg-1 m-pt-275 m-pb-140 recent-post-area type-1">
-        <div class="container">
+    <!-- Start Section -->
+    <section class="m-pt-135 no-overflows  m-pb-140 m-bg-1">
+        <div class="container ">
             <div class="row">
                 <div class="col-md-6 offset-md-3">
-                   <div class="text-center pb-75 ">
+                   <div class="text-center m-pb-25">
                         <p class="m-0  text-uppercase text-light-dark lt-space">Here is medim specialist doctors</p>
-                        <h2 class="m-0  text-dark">Recent Posts</h2>
+                        <h2 class="m-0  text-dark">What Patient Say </h2>
                        <span class="icon-section-wave d-inline-block text-active section-wave mt-3"></span>
                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
-                    <div  class="media align-items-center recent-post-wraper type-1">
-                        
-                        <a href="blog-single-sidebar.html" class="mr-0">
-                            <img class=" lt-radius-25 lb-radius-25" src="assets/images/recent-post-sm-img1.jpg" alt="Generic placeholder image">
-                        </a>
-                        <div class="media-body h-dp-10-60 bg-white type1-post pt-40 pb-40 rt-radius-25 rb-radius-25 pr-50 pl-25 s-dp-1-3">
-                            <div class="post-meta">
-                                <p class="fz-14 text-default mb-1"> <a href="blog-single-sidebar.html" class="text-default">16 Jan, 2019</a>    |    <a href="#" class="text-default">Medical</a>, <a href="#" class="text-default">Health</a></p>
+                <div class="col-md-12">
+                    <div class="testimonial-slider type-3">
+                        <div class="single-testimonila-item s-dp-10-60 radius-10 position-relative bg-white">
+                            <i class="icofont-quote-right pt-2 pb-3 d-inline-block text-active"></i>
+                            <p class="mb-4 pt-2">
+                                <i>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes
+                                </i>
+                            </p>
+                            <h4 class="text-dark2 m-0">Sarah Taylor</h4>
+                            <p class="text-light-dark mb-0 fz-poppins">
+                                Kidney Patient
+                            </p>
+                             <div class="clint-img s-dp-10-40 position-absolute rounded-circle">
+                                <img src="assets/images/clin-img1.jpg" alt="">
                             </div>
-                            <a href="blog-single-sidebar.html">
-                                <h5 class="mt-0 text-dark2 text-medium">Few information about 
-                    medical treatment</h5>
-                            </a>
-                           <p class="mb-0 pt-2 text-default">
-                               Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                           </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div  class="media align-items-center recent-post-wraper type-1">
-                        
-                        <a href="blog-single-sidebar.html" class="mr-0">
-                            <img class=" lt-radius-25 lb-radius-25" src="assets/images/recent-post-sm-img2.jpg" alt="Generic placeholder image">
-                        </a>
-                        <div class="media-body h-dp-10-60 bg-white type1-post pt-40 pb-40 rt-radius-25 rb-radius-25 pr-50 pl-25 s-dp-1-3">
-                            <div class="post-meta">
-                                <p class="fz-14 text-default mb-1"> <a href="#" class="text-default">18 Jan, 2019</a>    |    <a href="#" class="text-default">Medical</a>, <a href="#" class="text-default">Health</a></p>
+                        </div> <!-- single-testimonila-item -->
+                        <div class="single-testimonila-item s-dp-10-60 radius-10 position-relative bg-white">
+                            <i class="icofont-quote-right pt-2 pb-3 d-inline-block text-active"></i>
+                            <p class="mb-4 pt-2">
+                                <i>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes
+                                </i>
+                            </p>
+                            <h4 class="text-dark2 m-0">Jora Taylor</h4>
+                            <p class="text-light-dark mb-0 fz-poppins">
+                                Kidney Patient
+                            </p>
+                             <div class="clint-img s-dp-10-40 position-absolute rounded-circle">
+                                <img src="assets/images/clin-img2.jpg" alt="">
                             </div>
-                            <a href="blog-single-sidebar.html">
-                                <h5 class="mt-0 text-dark2 text-medium">Aenean vulputate ele an leo ligula </h5>
-                            </a>
-                           <p class="mb-0 pt-2 text-default">
-                               Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                           </p>
-                        </div>
+                        </div> <!-- single-testimonila-item -->
+                        <div class="single-testimonila-item s-dp-10-60 radius-10 position-relative bg-white">
+                            <i class="icofont-quote-right pt-2 pb-3 d-inline-block text-active"></i>
+                            <p class="mb-4 pt-2">
+                                <i>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes
+                                </i>
+                            </p>
+                            <h4 class="text-dark2 m-0">Pamela</h4>
+                            <p class="text-light-dark mb-0 fz-poppins">
+                                Kidney Patient
+                            </p>
+                             <div class="clint-img s-dp-10-40 position-absolute rounded-circle">
+                                <img src="assets/images/clin-img3.jpg" alt="">
+                            </div>
+                        </div> <!-- single-testimonila-item -->
+                        <div class="single-testimonila-item s-dp-10-60 radius-10 position-relative bg-white">
+                            <i class="icofont-quote-right pt-2 pb-3 d-inline-block text-active"></i>
+                            <p class="mb-4 pt-2">
+                                <i>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes
+                                </i>
+                            </p>
+                            <h4 class="text-dark2 m-0">Elizabeth</h4>
+                            <p class="text-light-dark mb-0 fz-poppins">
+                                Kidney Patient
+                            </p>
+                             <div class="clint-img s-dp-10-40 position-absolute rounded-circle">
+                                <img src="assets/images/clin-img5.jpg" alt="">
+                            </div>
+                        </div> <!-- single-testimonila-item -->
+                        <div class="single-testimonila-item s-dp-10-60 radius-10 position-relative bg-white">
+                            <i class="icofont-quote-right pt-2 pb-3 d-inline-block text-active"></i>
+                            <p class="mb-4 pt-2">
+                                <i>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes
+                                </i>
+                            </p>
+                            <h4 class="text-dark2 m-0">Ina Tey</h4>
+                            <p class="text-light-dark mb-0 fz-poppins">
+                                Kidney Patient
+                            </p>
+                             <div class="clint-img s-dp-10-40 position-absolute rounded-circle">
+                                <img src="assets/images/clin-img4.jpg" alt="">
+                            </div>
+                        </div> <!-- single-testimonila-item -->
                     </div>
                 </div>
             </div>
         </div>
-     </section>
-    <!-- End recent post Section -->
+    </section>
+    <!-- End Section -->
 
     <!-- Start footer -->
     <footer class="m-pt-140">
@@ -1170,13 +870,13 @@
         </div>
     </footer>
     <!-- End footer -->
-
-  <!-- Start scroll-top  Section -->
+    
+    <!-- Start scroll-top  Section -->
     <div class="scroll-top">
         <i class="icofont-rounded-up"></i>
     </div>
     <!-- End  scroll-top Section -->
-
+    
     <!-- js file -->
     <script src="assets/js/jquery-2.2.4.min.js"></script>
        <!-- plugins js -->
