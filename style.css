@@ -73,7 +73,7 @@ Responsive CSS
     }
 
     h1 {
-      font-size: 55px;
+      font-size: 47px;
     }
 
     p {
@@ -1030,7 +1030,7 @@ Responsive CSS
     .single-banenr-slide h6 {
       font-family: 'Roboto', sans-serif;
       letter-spacing: 4px;
-      font-size: 20px;
+      font-size: 14px;
     }
 
     .single-banenr-slide h1 {
@@ -1040,6 +1040,7 @@ Responsive CSS
 
     .single-banenr-slide p {
       font-family: 'Roboto', sans-serif;
+      text-align: justify;
     }
 
     .single-banenr-slide .btn-bordered-white {
