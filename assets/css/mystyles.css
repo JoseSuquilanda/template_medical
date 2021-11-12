@@ -1,3 +1,54 @@
-.altura {
-    display: flex;
+.distancia {
+    padding-left: 15px; 
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .todos p{
+        padding-right: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .altura {
+        /* display: grid; */
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .todos {
+        width: 100%;
+        height: auto;
+        /* Talvez quite el height */
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .contenido p{
+        height: 140px;
+        /* background-color: red; */
+    }
+
+    .fila-dos p{
+        height: 170px;
+        /* background-color: red; */
+    }
+    
+    .fila-tres p{
+        height: 118px;
+        /* background-color: red; */
+    }
+
+    .fila-cuatro p{
+        height: 140px;
+        /* background-color: red; */
+    }
+
+    .titulo-corto{
+        margin-top: 15px;
+        padding-block: 12px;
+    }
+
 }
