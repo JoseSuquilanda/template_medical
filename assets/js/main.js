@@ -29,37 +29,37 @@
 
         //Dynamic sticky Menu
 
-        var sitckyHeader = $('.navbar-sticky');
-        if (sitckyHeader.length > 0) {
-            var navOffset = $('.navbar-sticky').offset().top;
-            $(window).on('scroll', function() {
-                var $cloneNav = $('.navbar-sticky').clone(true);
-                $cloneNav.addClass('sticky-active');
-                if ($(this).scrollTop() > navOffset) {
-                    if ($(document).find('.sticky-active').length < 1) {
-                        $('.navbar-sticky').not('.sticky-active').css({
-                            visibility: 'hidden',
-                            opacity: 0
-                        });
-                        $('header').append($cloneNav);
-                        $cloneNav.show('slow');
-                    } else {
+        // var sitckyHeader = $('.navbar-sticky');
+        // if (sitckyHeader.length > 0) {
+        //     var navOffset = $('.navbar-sticky').offset().top;
+        //     $(window).on('scroll', function() {
+        //         var $cloneNav = $('.navbar-sticky').clone(true);
+        //         $cloneNav.addClass('sticky-active');
+        //         if ($(this).scrollTop() > navOffset) {
+        //             if ($(document).find('.sticky-active').length < 1) {
+        //                 $('.navbar-sticky').not('.sticky-active').css({
+        //                     visibility: 'hidden',
+        //                     opacity: 0
+        //                 });
+        //                 $('header').append($cloneNav);
+        //                 $cloneNav.show('slow');
+        //             } else {
 
-                    }
-                } else {
-                    $('.navbar-sticky').not('.sticky-active').css({
-                        visibility: 'visible',
-                        opacity: 1
-                    });
-                    $('.sticky-active').remove();
-                }
-            });
-        }
+        //             }
+        //         } else {
+        //             $('.navbar-sticky').not('.sticky-active').css({
+        //                 visibility: 'visible',
+        //                 opacity: 1
+        //             });
+        //             $('.sticky-active').remove();
+        //         }
+        //     });
+        // }
 
 
         //Anime js
         $('.ml12').each(function() {
-            $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+            $(this).html($(this).text().replace(/\S/g, "<span class='letter'>$&</span>"));
         });
 
         anime.timeline({
