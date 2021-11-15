@@ -2706,9 +2706,9 @@ Responsive CSS
     }
 
     .sticky-active.m-navbar .navbar-nav>li>a {
-      font-size: 14px;
+      font-size: 15px;
       text-transform: capitalize;
-      padding: 18px !important;
+      padding: 14px !important;
     }
 
     .navbar-fixed {
@@ -3234,11 +3234,11 @@ Responsive CSS
     }
 
     .department-pill.type-3 a {
-      font-size: 18px;
+      font-size: 14px;
       font-weight: 500;
       font-family: 'Poppins', sans-serif;
       color: #353535;
-      line-height: 30px;
+      line-height: 23px;
       border-bottom: 1px solid #f3f6fe;
       padding: 11px 10px 11px 25px;
       position: relative;
