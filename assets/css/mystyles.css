@@ -27,11 +27,6 @@
         height: auto;
         /* Talvez quite el height */
     }
-
-    .padding-equipo{
-        padding-left: 100px;
-        padding-right: 100px;
-    }
 }
 
 @media (min-width: 992px) {
